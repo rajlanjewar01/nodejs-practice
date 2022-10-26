@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node js practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajlanjewar01/"
+  },
+  "author": "rajlanjewar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "chalk": "^5.1.2"
+  }
+}

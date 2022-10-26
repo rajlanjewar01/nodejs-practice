@@ -1,23 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -118,28 +101,32 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Node JS Notes
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is example paragraph.
 
-### Prerequisites
+### Recover deleted node modules:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Below code is use to recover deleted <b><u>node_modules</u></b> folder.
+* run 
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
-### Installation
+### Ignore node_modules folder while uploading to repository :
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_ignore the node_modules folder when we upload code to code repository._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Create .gitignore file
+2. write below line to ignore node_modules folder to upload
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   /node_modules
    ```
+
+
+
+
+   
 3. Install NPM packages
    ```sh
    npm install
