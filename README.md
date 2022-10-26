@@ -107,7 +107,7 @@ This is example paragraph.
 
 ### Recover deleted node modules:
 
-Below code is use to recover deleted <b><u>node_modules</u></b> folder.
+Below code is use to recover deleted (`node_modules`) folder.
 * run 
   ```sh
   npm install
@@ -117,23 +117,22 @@ Below code is use to recover deleted <b><u>node_modules</u></b> folder.
 
 _ignore the node_modules folder when we upload code to code repository._
 
-1. Create .gitignore file
+1. Create (`.gitignore`) file
 2. write below line to ignore node_modules folder to upload
    ```sh
    /node_modules
    ```
 
+### Nodemon package :
+This is example paragraph.
 
-
-
-   
-3. Install NPM packages
+1. Install NPM packages
    ```sh
-   npm install
+   npm i nodemon
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+2. Run your app 
+   ```sh
+   nodemon index.js
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
